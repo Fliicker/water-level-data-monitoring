@@ -1,64 +1,64 @@
 spring:
   datasource:
     level:
-      jdbc-url: jdbc:sqlite:D:\zhuomian\水科院\python\水位\water_level.db
+      jdbc-url: jdbc:sqlite:D:/WebGIS/Projects/water-level-data-monitoring/resource/water_level.db
       driver-class-name: org.sqlite.JDBC
 
 pythondir:
-  E:/github/station/resource/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/
 python:
   python
 basedir:
-  E:/github/station/resource/data/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/data/
 data-path:
-  E:/github/station/resource/utc+8_data/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/utc+8_data/
 singleFileDir:
-  E:/github/station/resource/all/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/all/
 waterleveldb:
-  E:/github/station/resource/water_level.db
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/water_level.db
 stationnamejson:
-  E:/github/station/resource/station_name.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/station_name.json
 
 
 #长江下游网站
 waterlevellog:
-  E:/github/station/resource/yangtze_downstream_log.txt
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/yangtze_downstream_log.txt
 yangtzeDownstreamStationJson:
-  E:/github/station/resource/yangtze_downstream_station.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/yangtze_downstream_station.json
 
 #浙江水情网
 zhejianglog:
-  E:/github/station/resource/zhejiang_log.txt
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/zhejiang_log.txt
 zhejiangjson:
-  E:/github/station/resource/zhejiang_station.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/zhejiang_station.json
 
 #安徽水情网
 anhuilog:
-  E:/github/station/resource/anhui_log.txt
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/anhui_log.txt
 anhuijson:
-  E:/github/station/resource/nodescript/station.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/nodescript/station.json
 nodescriptpath:
-  E:/github/station/resource/nodescript/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/nodescript/
 
 #江苏水情网
 jiangsulog:
-  E:/github/station/resource/jiangsu_log.txt
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/jiangsu_log.txt
 jiangsujson:
-  E:/github/station/resource/jiangsu_station.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/jiangsu_station.json
 pngpath:
-  E:/github/station/resource/png/
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/png/
 
 #湖北水情网
 hubeiLog:
-  E:/github/station/resource/hubei_log.txt
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/hubei_log.txt
 hubeiJson:
-  E:/github/station/resource/hubei_station.json
+  D:/WebGIS/Projects/water-level-data-monitoring/resource/hubei_station.json
 
 
 
 
 #水位预报模型地址
-predictionPath: E:/github/station/resource/prediction/
+predictionPath: D:/WebGIS/Projects/water-level-data-monitoring/resource/prediction/
 
 
 
