@@ -30,3 +30,5 @@ public class JiangsuServiceImpl implements JiangsuService {
         return jiangsuMapper.getInfoByStationAndTime(station, startTime, endTime);
     }
 }
+
+//JiangsuService接口的实现类
